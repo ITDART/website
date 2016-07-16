@@ -1,0 +1,119 @@
+body {
+  padding-top: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar-brand{
+	padding:3px;
+}
+.navbar-brand:hover{
+	opacity:0.8;
+}
+
+.itdart-template {
+  padding: 40px 15px;
+  /*text-align: center;*/
+  text-align: left;
+}
+
+.itdart-template h3 {
+    color: #21b776;
+}
+
+.itdart-template .col-md-4 {
+    margin-left: 0;
+    padding-left: 19px;
+    border-left: 1px solid #eee;
+}
+
+.orgintro {
+    padding: 0 0 0 60%;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.highlight{
+    background-color: #21b776;
+    color: #fff;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.highlight-shadow{
+    box-shadow: 4px -4px 5px rgba(0,0,0,0.2);
+}
+
+.highlight h2, .highlight h3, .highlight a{
+  color:#fff;
+}
+
+.highlight p{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/*.highlight .content{
+  background-color: #fff;
+  padding: 40px;
+  width: 80%;
+  margin: 0 auto;
+}*/
+
+/* ----- Overlay ----- */
+
+/* the overlayed element */
+.apple_overlay {
+
+    /* initially overlay is hidden */
+    display:none;
+
+    /* growing background image */
+    background-image:url(../img/white.png);
+
+    /*
+      width after the growing animation finishes
+      height is automatically calculated
+      */
+    /*width:640px;*/
+    width:50%;
+
+    /* some padding to layout nested elements nicely  */
+    padding:35px;
+
+    /* a little styling */
+    /*font-size:11px;*/
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+    background-image:url(../img/close.png);
+    position:absolute; right:5px; top:5px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+
+/* Semi transparent image for overlay */
+#overlay {
+  background-image:url(../img/transparent.png);
+  color:#efefef;
+  height:450px;
+}
+/* Container for external contents.  Use a vertical scroll if needed */
+div.contentWrap {
+  height:441px;
+  overflow:auto;
+  /*float:left;*/
+}
+
